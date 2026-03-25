@@ -16,7 +16,7 @@ echo "[4/6] Setting up SSH key..."
 USER_HOME=$(eval echo ~${SUDO_USER:-$USER})
 
 mkdir -p "$USER_HOME/.ssh"
-echo "PASTE_YOUR_PUBLIC_KEY_HERE" >> "$USER_HOME/.ssh/authorized_keys"
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUJ31y39yyRgktmTa6Hp0tuNLrvB6OCRtWWgz3AJxRB minibox@home" >> "$USER_HOME/.ssh/authorized_keys"
 
 chmod 700 "$USER_HOME/.ssh"
 chmod 600 "$USER_HOME/.ssh/authorized_keys"
