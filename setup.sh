@@ -4,7 +4,6 @@ set -e
 
 echo "[1/6] Updating system..."
 sudo apt update -y
-
 echo "[2/6] Installing SSH server..."
 sudo apt install -y openssh-server
 
