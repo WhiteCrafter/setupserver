@@ -32,7 +32,7 @@ usermod -aG sudo mrwhite
 
 
 
-sude echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUJ31y39yyRgktmTa6Hp0tuNLrvB6OCRtWWgz3AJxRB minibox@home" >> "/home/mrwhite/.ssh/authorized_keys"
+sudo echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUJ31y39yyRgktmTa6Hp0tuNLrvB6OCRtWWgz3AJxRB minibox@home" >> "/home/mrwhite/.ssh/authorized_keys"
 
 
 
