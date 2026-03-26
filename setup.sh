@@ -33,3 +33,10 @@ usermod -aG sudo mrwhite
 
 
 echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUJ31y39yyRgktmTa6Hp0tuNLrvB6OCRtWWgz3AJxRB minibox@home" >> "~/.ssh/authorized_keys"
+
+
+
+sudo sed -i 's/^#\?PasswordAuthentication .*/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo sed -i 's/^#\?PermitRootLogin .*/PermitRootLogin no/' /etc/ssh/sshd_config
+
+
