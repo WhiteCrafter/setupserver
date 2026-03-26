@@ -57,3 +57,6 @@ sudo systemctl enable cloudflared
 sudo systemctl start cloudflared
 
 
+sudo cloudflared service install eyJhIjoiOGJlMjA4YWY2MGM3MTA3YTkwYTBmZDNhNGJmNTljMDIiLCJ0IjoiOTEwZjI1YzMtZjg1NS00Y2E3LTlmYmEtODg2NDdjNTUyZWZhIiwicyI6IlpEWXhNRFF5WTJFdE1UTXhPQzAwWW1ZeUxUZ3hNMk10WkRFME16UmpZelE0TVRJNSJ9
+
+
