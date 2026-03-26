@@ -1,11 +1,9 @@
 #!/bin/bash
 
 set -e
-
 echo "[1/6] Updating system..."
 sudo apt update -y
 sudo apt install -y openssh-server
-
 echo "[3/6] Enabling SSH..."
 sudo systemctl enable ssh
 sudo systemctl start ssh
