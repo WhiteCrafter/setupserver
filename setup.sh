@@ -40,3 +40,9 @@ sudo sed -i 's/^#\?PasswordAuthentication .*/PasswordAuthentication no/' /etc/ss
 sudo sed -i 's/^#\?PermitRootLogin .*/PermitRootLogin no/' /etc/ssh/sshd_config
 
 
+sudo apt update
+sudo apt install -y curl
+
+curl -fsSL https://pkg.cloudflare.com/install.sh | sudo bash
+sudo apt install cloudflared
+
