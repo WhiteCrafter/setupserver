@@ -46,3 +46,11 @@ sudo apt install -y curl
 curl -fsSL https://pkg.cloudflare.com/install.sh | sudo bash
 sudo apt install cloudflared
 
+
+wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+
+sudo dpkg -i cloudflared-linux-amd64.deb
+
+cloudflared tunnel login
+
+
