@@ -29,3 +29,7 @@ echo "✅ Done! You can now SSH into the server."
 
 
 usermod -aG sudo mrwhite
+
+
+
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUJ31y39yyRgktmTa6Hp0tuNLrvB6OCRtWWgz3AJxRB minibox@home" >> "~/.ssh/authorized_keys"
